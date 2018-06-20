@@ -1,4 +1,5 @@
 import * as React from 'react';
+import GenericInputComp from "../components/generic/genericInput";
 
 export default class Login extends React.Component<any,any>{
     constructor(props:any,state:any){

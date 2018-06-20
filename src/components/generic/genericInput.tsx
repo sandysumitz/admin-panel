@@ -1,10 +1,11 @@
 import * as React from 'react';
+import inp from '../generic/enums';
 
 interface Props extends BaseProps {
     name: string;
     class: string;
     isChecked?: boolean;
-    inputType?: InputType;
+    inputType?: string;
 }
 
 class GenericInput extends React.Component<Props, any>{

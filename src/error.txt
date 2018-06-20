@@ -1,0 +1,6 @@
+1.Error--TS2605: JSX element type 'Login' is not a constructor function for JSX elements.
+Ans:it is an syntax issue.. 
+import React from 'react' 
+instead use import * as React from 'react'
+
+------------------------------
